@@ -7,3 +7,4 @@ type Client struct {
 	Username    string
 	Room        string
 	RateLimiter chan struct{}
+}
